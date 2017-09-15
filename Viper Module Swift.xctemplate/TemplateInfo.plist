@@ -13,7 +13,7 @@
 	<key>DefaultCompletionName</key>
 	<string>SwiftViperModule</string>
 	<key>Description</key>
-	<string>Basic Swift VIPER module template. Uses Swinject for dependency injection. Creates View, Interactor, Presenter, Router, Assembler and Container with protocols.</string>
+	<string>Basic Swift VIPER module template. Uses Swinject for dependency injection. Creates View, Interactor, Presenter, Router, Assembly and its protocols.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>

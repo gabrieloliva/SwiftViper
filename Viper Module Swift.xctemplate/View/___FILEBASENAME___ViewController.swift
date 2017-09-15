@@ -9,7 +9,7 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___FILEBASENAMEASIDENTIFIER___Protocol {
+class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___FILEBASENAMEASIDENTIFIER___Protocol {
 	
     // MARK: - PROPERTIES
 	var input: ___VARIABLE_viperModuleName___PresenterInputProtocol!

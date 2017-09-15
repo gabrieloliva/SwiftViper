@@ -9,7 +9,7 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter {
+class ___FILEBASENAMEASIDENTIFIER___ {
 
 	// MARK: - PROPERTIES
     var view: ___VARIABLE_viperModuleName___ViewControllerProtocol!
@@ -19,11 +19,11 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter {
 }
 
 // MARK: - INPUT IMPLEMENTATION
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___VARIABLE_viperModuleName___PresenterInputProtocol {
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___PresenterInputProtocol {
     
 }
 
 // MARK: - OUTPUT IMPLEMENTATION
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___VARIABLE_viperModuleName___PresenterOutputProtocol {
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___PresenterOutputProtocol {
     
 }

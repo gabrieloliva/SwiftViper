@@ -9,7 +9,7 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: ___VARIABLE_viperModuleName___InteractorProtocol {
+class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___InteractorProtocol {
 
     // MARK: - PROPERTIES
     var output: ___VARIABLE_viperModuleName___PresenterOutputProtocol!

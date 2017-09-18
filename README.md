@@ -7,10 +7,10 @@ This repo stores XCode templates, that allows you to create VIPER module in Swif
 ## How to use? ##
 If you are using Xcode just go to Application folder, browse to the Xcode application icon. Right-click it and choose 'Show Package Contents'. Then browse to: `Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS and add `Viper Module Swift.xctemplate` there. That's it. Now you can find your template in XCode -> New File -> iOS -> Source
 
-Add the following line to your project Podfile (we need to specify a commit, as container hierarchy is not released yet)
+Add the following line to your project Podfile
 
 ```
-pod 'Swinject', :git => 'https://github.com/Swinject/Swinject.git', :commit => '48a8504'
+pod 'Swinject'
 ```
 
 ### References ###

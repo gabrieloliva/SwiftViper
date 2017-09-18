@@ -21,3 +21,8 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___RouterProtoc
 extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___RouterInputProtocol {
 
 }
+
+// MARK: - OUTPUT IMPLEMENTATION
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___RouterOutputProtocol {
+    
+}

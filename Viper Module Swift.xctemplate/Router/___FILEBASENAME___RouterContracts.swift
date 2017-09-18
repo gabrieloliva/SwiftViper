@@ -20,9 +20,16 @@ protocol ___VARIABLE_viperModuleName___RouterProtocol {
 
 }
 
-/// This protocol is responsible for inputs from presenter to router
+/// This protocol is responsible for inputs from router to router
 protocol ___VARIABLE_viperModuleName___RouterInputProtocol {
     
-    // Write ___VARIABLE_viperModuleName___ outputs protocols down below...
+    // Write ___VARIABLE_viperModuleName___ inputs protocols down below...
 
+}
+
+/// This protocol is responsible for inputs from presenter to router
+protocol ___VARIABLE_viperModuleName___RouterOutputProtocol {
+    
+    // Write ___VARIABLE_viperModuleName___ outputs protocols down below...
+    
 }

@@ -19,34 +19,36 @@ class ___FILEBASENAMEASIDENTIFIER___: Assembly {
     /// - Parameter container: Container to assemble
     func assemble(container: Container) {
         
-        // View assembly
-        container.storyboardInitCompleted(___VARIABLE_viperModuleName___ViewController.self) { (resolver, viewController) in
-            viewController.input = resolver.resolve(___VARIABLE_viperModuleName___PresenterInputProtocol.self, argument: viewController)
+        // Register router
+        container.register(___VARIABLE_viperModuleName___RouterInputProtocol.self) { (resolver) in
+            let router = ___VARIABLE_viperModuleName___Router()
+            router.view = resolver.resolve(___VARIABLE_viperModuleName___ViewControllerProtocol.self, argument: router)
+            return router
         }
         
-        // Presenter assembly
-        container.register(___VARIABLE_viperModuleName___PresenterInputProtocol.self) { (resolver, viewController: ___VARIABLE_viperModuleName___ViewController) in
+        // Register view
+        container.register(___VARIABLE_viperModuleName___ViewControllerProtocol.self) { (resolver, router: ___VARIABLE_viperModuleName___Router) in
+            let viewController = ___VARIABLE_viperModuleName___ViewController() // Retrieve your view controller correctly in here
+            viewController.input = resolver.resolve(___VARIABLE_viperModuleName___PresenterInputProtocol.self,
+                                                    arguments: viewController as ___VARIABLE_viperModuleName___ViewControllerProtocol, router)
+            return viewController
+        }
+        
+        // Register presenter
+        container.register(___VARIABLE_viperModuleName___PresenterInputProtocol.self) { (resolver, view: ___VARIABLE_viperModuleName___ViewControllerProtocol, router: ___VARIABLE_viperModuleName___Router) in
             let presenter = ___VARIABLE_viperModuleName___Presenter()
-            presenter.view = viewController
-            presenter.interactor = resolver.resolve(___VARIABLE_viperModuleName___InteractorProtocol.self, argument: presenter)
-            presenter.router = resolver.resolve(___VARIABLE_viperModuleName___RouterProtocol.self, arguments: viewController, presenter)
+            presenter.interactor = resolver.resolve(___VARIABLE_viperModuleName___InteractorProtocol.self, argument: presenter as ___VARIABLE_viperModuleName___PresenterOutputProtocol)
+            presenter.view = view
+            presenter.router = router
             return presenter
         }
         
-        // Interactor assembly
-        container.register(___VARIABLE_viperModuleName___InteractorProtocol.self) { (resolver, presenter: ___VARIABLE_viperModuleName___Presenter) in
+        // Register interactor
+        container.register(___VARIABLE_viperModuleName___InteractorProtocol.self) { (_, presenter: ___VARIABLE_viperModuleName___PresenterOutputProtocol) in
             let interactor = ___VARIABLE_viperModuleName___Interactor()
-            // Inject anything you want...
             interactor.output = presenter
             return interactor
         }
         
-        // Router assembly
-        container.register(___VARIABLE_viperModuleName___RouterProtocol.self) { (resolver, viewController: ___VARIABLE_viperModuleName___ViewController, presenter: ___VARIABLE_viperModuleName___Presenter) in
-            let router = ___VARIABLE_viperModuleName___Router()
-            router.view = viewController
-            router.presenter = presenter
-            return router
-        }
     }
 }

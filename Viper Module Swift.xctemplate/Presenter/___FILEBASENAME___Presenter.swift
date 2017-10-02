@@ -14,7 +14,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___Protocol {
     // MARK: - PROPERTIES
     weak var view: ___VARIABLE_viperModuleName___ViewControllerProtocol!
     var interactor: ___VARIABLE_viperModuleName___InteractorProtocol!
-    var router: ___VARIABLE_viperModuleName___RouterProtocol!
+    var router: ___VARIABLE_viperModuleName___RouterOutputProtocol!
 
 }
 

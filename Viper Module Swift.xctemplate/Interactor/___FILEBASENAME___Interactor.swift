@@ -12,6 +12,6 @@ import Foundation
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___InteractorProtocol {
 
     // MARK: - PROPERTIES
-    var output: ___VARIABLE_viperModuleName___PresenterOutputProtocol!
+    weak var output: ___VARIABLE_viperModuleName___PresenterOutputProtocol!
     
 }

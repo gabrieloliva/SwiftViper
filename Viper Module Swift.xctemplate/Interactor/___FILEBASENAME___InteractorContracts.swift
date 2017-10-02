@@ -10,7 +10,7 @@
 import Foundation
 
 /// This protocol is responsible for output from interactor to presenter
-protocol ___VARIABLE_viperModuleName___InteractorProtocol {
+protocol ___VARIABLE_viperModuleName___InteractorProtocol: AnyObject {
     
     /// ___FILEBASENAMEASIDENTIFIER___ presenter output
     var output: ___VARIABLE_viperModuleName___PresenterOutputProtocol! { get set }

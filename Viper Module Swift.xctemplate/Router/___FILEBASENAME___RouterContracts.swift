@@ -10,7 +10,7 @@
 import Foundation
 
 /// This protocol is responsible router properties
-protocol ___VARIABLE_viperModuleName___RouterProtocol {
+protocol ___VARIABLE_viperModuleName___RouterProtocol: AnyObject {
     
     /// ___VARIABLE_viperModuleName___ view controller
     var view: ___VARIABLE_viperModuleName___ViewControllerProtocol! { get set }
@@ -21,14 +21,14 @@ protocol ___VARIABLE_viperModuleName___RouterProtocol {
 }
 
 /// This protocol is responsible for inputs from router to router
-protocol ___VARIABLE_viperModuleName___RouterInputProtocol {
+protocol ___VARIABLE_viperModuleName___RouterInputProtocol: AnyObject {
     
     // Write ___VARIABLE_viperModuleName___ inputs protocols down below...
 
 }
 
 /// This protocol is responsible for inputs from presenter to router
-protocol ___VARIABLE_viperModuleName___RouterOutputProtocol {
+protocol ___VARIABLE_viperModuleName___RouterOutputProtocol: AnyObject {
     
     // Write ___VARIABLE_viperModuleName___ outputs protocols down below...
     

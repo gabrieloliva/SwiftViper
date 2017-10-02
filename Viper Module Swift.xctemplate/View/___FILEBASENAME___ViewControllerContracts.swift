@@ -10,7 +10,7 @@
 import UIKit
 
 /// This protocol is responsible for **Presenter -> ViewController** communication
-protocol ___VARIABLE_viperModuleName___ViewControllerProtocol {
+protocol ___VARIABLE_viperModuleName___ViewControllerProtocol: AnyObject {
     
     /// ___VARIABLE_viperModuleName___ presenter input
     var input: ___VARIABLE_viperModuleName___PresenterInputProtocol! { get set }

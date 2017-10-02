@@ -12,7 +12,7 @@ import UIKit
 class ___FILEBASENAMEASIDENTIFIER___ {
 
     // MARK: - PROPERTIES
-    var view: ___VARIABLE_viperModuleName___ViewControllerProtocol!
+    weak var view: ___VARIABLE_viperModuleName___ViewControllerProtocol!
     var interactor: ___VARIABLE_viperModuleName___InteractorProtocol!
     var router: ___VARIABLE_viperModuleName___RouterProtocol!
 

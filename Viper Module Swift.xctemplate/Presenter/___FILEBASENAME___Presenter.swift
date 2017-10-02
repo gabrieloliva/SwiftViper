@@ -9,7 +9,7 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ {
+class ___FILEBASENAMEASIDENTIFIER___ ___VARIABLE_viperModuleName___Protocol {
 
     // MARK: - PROPERTIES
     weak var view: ___VARIABLE_viperModuleName___ViewControllerProtocol!

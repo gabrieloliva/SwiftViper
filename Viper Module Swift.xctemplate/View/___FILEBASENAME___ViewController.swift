@@ -11,10 +11,10 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___FILEBASENAMEASIDENTIFIER___Protocol {
 	
-    // MARK: - PROPERTIES
+    // MARK: PUBLIC API
 	var input: ___VARIABLE_viperModuleName___PresenterInputProtocol!
 
-    // MARK: - LIFE CYCLE
+    // MARK: LIFE CYCLE
 	override func viewDidLoad() {
         super.viewDidLoad()
     }

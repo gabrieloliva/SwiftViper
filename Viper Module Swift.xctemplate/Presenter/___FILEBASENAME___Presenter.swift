@@ -11,7 +11,7 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___PresenterProtocol {
 
-    // MARK: - PROPERTIES
+    // MARK: PUBLIC API
     weak var view: ___VARIABLE_viperModuleName___View!
     var interactor: ___VARIABLE_viperModuleName___InteractorProtocol!
     var router: ___VARIABLE_viperModuleName___RouterOutputProtocol!

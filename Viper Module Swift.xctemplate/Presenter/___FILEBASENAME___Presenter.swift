@@ -9,10 +9,10 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___Protocol {
+class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___PresenterProtocol {
 
     // MARK: - PROPERTIES
-    weak var view: ___VARIABLE_viperModuleName___ViewControllerProtocol!
+    weak var view: ___VARIABLE_viperModuleName___View!
     var interactor: ___VARIABLE_viperModuleName___InteractorProtocol!
     var router: ___VARIABLE_viperModuleName___RouterOutputProtocol!
 

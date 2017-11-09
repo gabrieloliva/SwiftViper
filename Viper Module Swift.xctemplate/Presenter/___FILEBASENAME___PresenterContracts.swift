@@ -13,13 +13,13 @@ import Foundation
 protocol ___VARIABLE_viperModuleName___PresenterProtocol: AnyObject {
     
     /// ___VARIABLE_viperModuleName___ view controller output
-    var view: ___VARIABLE_viperModuleName___ViewControllerProtocol! { get set }
+    var view: ___VARIABLE_viperModuleName___View! { get set }
     
     /// ___VARIABLE_viperModuleName___ interactor
     var interactor: ___VARIABLE_viperModuleName___InteractorProtocol! { get set }
     
     /// ___VARIABLE_viperModuleName___ router
-    var router: ___VARIABLE_viperModuleName___RouterProtocol! { get set }
+    var router: ___VARIABLE_viperModuleName___RouterOutputProtocol! { get set }
 }
 
 /// This protocol is responsible for inputs into Interactor or Router

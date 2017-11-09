@@ -9,6 +9,9 @@
 
 import UIKit
 
+/// Alias that defines what ___VARIABLE_viperModuleName___View trully is
+typealias ___VARIABLE_viperModuleName___View = (___VARIABLE_viperModuleName___ViewControllerProtocol & UIViewController)
+
 /// This protocol is responsible for **Presenter -> ViewController** communication
 protocol ___VARIABLE_viperModuleName___ViewControllerProtocol: AnyObject {
     

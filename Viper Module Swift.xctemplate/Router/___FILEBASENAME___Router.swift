@@ -22,7 +22,10 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___RouterProtoc
         self.view = view
     }
     
-    class func configureViewController() -> UIViewController {
+    /// Setups ___VARIABLE_viperModuleName___
+    ///
+    /// - Returns: Instanced ___VARIABLE_viperModuleName___ UIViewController
+    class func setupModule() -> UIViewController {
         // Generating module components
         let view: ___VARIABLE_viperModuleName___View = ___VARIABLE_viperModuleName___ViewController() // Retrieve your view controller here
         let presenter: ___VARIABLE_viperModuleName___PresenterProtocol &

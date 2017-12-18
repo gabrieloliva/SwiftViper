@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___RouterProtoc
 	
     // MARK: PUBLIC API
     var view: ___VARIABLE_viperModuleName___View?
-    var presenter: ___VARIABLE_viperModuleName___PresenterInputProtocol!
+    weak var presenter: ___VARIABLE_viperModuleName___PresenterInputProtocol!
     
     /// Initializes ___VARIABLE_viperModuleName___Router
     ///

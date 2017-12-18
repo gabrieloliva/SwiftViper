@@ -12,7 +12,7 @@ import UIKit
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___FILEBASENAMEASIDENTIFIER___Protocol {
 	
     // MARK: PUBLIC API
-	var input: ___VARIABLE_viperModuleName___PresenterInputProtocol!
+    var input: ___VARIABLE_viperModuleName___PresenterInputProtocol!
 
     // MARK: LIFE CYCLE
 	override func viewDidLoad() {
